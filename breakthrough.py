@@ -51,7 +51,7 @@ def winner(lines, columns, white_positions, black_positions) :
         return -1
     elif len(black_positions) == 0:
         return 1
-
+    #alterando formato de vitoria
     for i in len(white_positions) :
         ## Se a linha da peça for a última linha do tabuleiro
         if white_positions[1][i][0] == lines :
