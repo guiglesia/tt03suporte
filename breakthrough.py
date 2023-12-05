@@ -57,7 +57,7 @@ def winner(lines, columns, white_positions, black_positions) :
         if white_positions[1][i][0] == lines :
             return 1
 
-    for peca in black_positions :
+    for i in black_positions :
         ## Se a linha da peça for a primeira linha do tabuleiro
         if black_positions[1][i][0][0] == 1 :
             return -1
